@@ -16,7 +16,7 @@ a {
 }
 
 body {
-    background-image: linear-gradient( to bottom right, rgba(79,51,176,1.0),rgba(210,53,165));
+    background-image: linear-gradient( to bottom right, rgb(16, 89, 41),rgb(168, 124, 28));
 }
 
 .container {
@@ -30,8 +30,8 @@ body {
     position: relative;
     height: auto;
     width: auto;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 40px;
+    border-radius: 40px;
     box-shadow: 0 0 30px #000;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .theme-toggler.active {
-    color: #333;
+    color: #8c4545;
 }
 
 .theme-toggler.active::before {
@@ -142,7 +142,7 @@ button#equal {
   }
 
   .calculator.dark button#clear {
-    background-color: #2d191e;
+    background-color: #738ce6;
     color: #bd3740;
   }
 
